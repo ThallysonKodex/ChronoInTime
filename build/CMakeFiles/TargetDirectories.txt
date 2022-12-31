@@ -1,0 +1,3 @@
+/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles/outer.dir
+/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles/edit_cache.dir
+/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles/rebuild_cache.dir
