@@ -4,44 +4,53 @@
 #include "currentState.h"
 #include <ncurses.h>
 
+
 // Local variables
-
-
-
-Person* alex;
-StateManager* state;
+int y = 0; 
 
 Updater::Updater(){
 
-	alex = new Person("Alex", 16);	
-	state = new StateManager(*alex);	
-
-	move(1, 6);
-	
-	init_pair(1, COLOR_RED, COLOR_BLACK);
-	
-	attron(COLOR_PAIR(1));
-	typer("Current State:");
-	attroff(COLOR_PAIR(1));
-
-	move(2, 10);
-	typer("Name: " + state->getCurrent().getName());
-	typer(" - ");	
-	typer("Age: " + std::to_string(state->getCurrent().getAge()));
-
 	
 }
 
+
+Person* alex = new Person("Alex", 16);	
+StateManager* state = new StateManager(*alex);	
+
+bool redrewn1 {true};
 
 void Updater::update(char key){
+	
+	// DRAW
+	
+	if( redrewn1 == true ){
+		redrewn1 = false;
+		move(1 + y, 6);
+		attron(COLOR_PAIR(1));
+		addstr("Current State:");
+		attroff(COLOR_PAIR(1));
+
+		move(2 + y, 10);
+		attron(COLOR_PAIR(2));
+		typer(key, "Name: " + state->getCurrent().getName(), 1);
+		attroff(COLOR_PAIR(2));
+		typer(key, " - ", 1);	
+
+		attron(COLOR_PAIR(2));
+		typer(key, "Age: " + std::to_string(state->getCurrent().getAge()), 1);
+		attroff(COLOR_PAIR(2));
+
+	}
 
 
 
+
+	refresh();
 
 }
-
 void Updater::release(){
 
+	// DELETE STATE VARIABLES
 	delete alex;
 	delete state;
 	alex = nullptr;

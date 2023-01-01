@@ -3,9 +3,10 @@
 #define COMMONS
 
 
-void typer(const std::string);
+void typer(char, const std::string);
 
-void typer(const std::string, int);
+void typer(char, const std::string, int);
+
 
 void sleeper(int millis);
 

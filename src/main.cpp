@@ -26,13 +26,13 @@ int main(){
 		updater->update(ch);
 
 
-
 		// EXIT THE GAME LOOP
 		if(ch == 'q'){
 			running = false;
 			endwin();
 			break;
 		}
+
 	}
 	
 	
