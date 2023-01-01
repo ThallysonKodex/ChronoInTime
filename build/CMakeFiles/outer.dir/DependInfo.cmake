@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/var/home/kodex/Documents/cpp_programming/9/src/concepts/currentState.cpp" "CMakeFiles/outer.dir/src/concepts/currentState.cpp.o" "gcc" "CMakeFiles/outer.dir/src/concepts/currentState.cpp.o.d"
   "/var/home/kodex/Documents/cpp_programming/9/src/configs/config.cpp" "CMakeFiles/outer.dir/src/configs/config.cpp.o" "gcc" "CMakeFiles/outer.dir/src/configs/config.cpp.o.d"
   "/var/home/kodex/Documents/cpp_programming/9/src/gameobjects/person.cpp" "CMakeFiles/outer.dir/src/gameobjects/person.cpp.o" "gcc" "CMakeFiles/outer.dir/src/gameobjects/person.cpp.o.d"
+  "/var/home/kodex/Documents/cpp_programming/9/src/gameobjects/room.cpp" "CMakeFiles/outer.dir/src/gameobjects/room.cpp.o" "gcc" "CMakeFiles/outer.dir/src/gameobjects/room.cpp.o.d"
   "/var/home/kodex/Documents/cpp_programming/9/src/gamestates/update.cpp" "CMakeFiles/outer.dir/src/gamestates/update.cpp.o" "gcc" "CMakeFiles/outer.dir/src/gamestates/update.cpp.o.d"
   "/var/home/kodex/Documents/cpp_programming/9/src/main.cpp" "CMakeFiles/outer.dir/src/main.cpp.o" "gcc" "CMakeFiles/outer.dir/src/main.cpp.o.d"
   )

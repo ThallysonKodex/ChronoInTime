@@ -69,10 +69,24 @@ include CMakeFiles/outer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/outer.dir/flags.make
 
+CMakeFiles/outer.dir/src/gameobjects/room.cpp.o: CMakeFiles/outer.dir/flags.make
+CMakeFiles/outer.dir/src/gameobjects/room.cpp.o: /var/home/kodex/Documents/cpp_programming/9/src/gameobjects/room.cpp
+CMakeFiles/outer.dir/src/gameobjects/room.cpp.o: CMakeFiles/outer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/outer.dir/src/gameobjects/room.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/outer.dir/src/gameobjects/room.cpp.o -MF CMakeFiles/outer.dir/src/gameobjects/room.cpp.o.d -o CMakeFiles/outer.dir/src/gameobjects/room.cpp.o -c /var/home/kodex/Documents/cpp_programming/9/src/gameobjects/room.cpp
+
+CMakeFiles/outer.dir/src/gameobjects/room.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/outer.dir/src/gameobjects/room.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/home/kodex/Documents/cpp_programming/9/src/gameobjects/room.cpp > CMakeFiles/outer.dir/src/gameobjects/room.cpp.i
+
+CMakeFiles/outer.dir/src/gameobjects/room.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/outer.dir/src/gameobjects/room.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/home/kodex/Documents/cpp_programming/9/src/gameobjects/room.cpp -o CMakeFiles/outer.dir/src/gameobjects/room.cpp.s
+
 CMakeFiles/outer.dir/src/gameobjects/person.cpp.o: CMakeFiles/outer.dir/flags.make
 CMakeFiles/outer.dir/src/gameobjects/person.cpp.o: /var/home/kodex/Documents/cpp_programming/9/src/gameobjects/person.cpp
 CMakeFiles/outer.dir/src/gameobjects/person.cpp.o: CMakeFiles/outer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/outer.dir/src/gameobjects/person.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/outer.dir/src/gameobjects/person.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/outer.dir/src/gameobjects/person.cpp.o -MF CMakeFiles/outer.dir/src/gameobjects/person.cpp.o.d -o CMakeFiles/outer.dir/src/gameobjects/person.cpp.o -c /var/home/kodex/Documents/cpp_programming/9/src/gameobjects/person.cpp
 
 CMakeFiles/outer.dir/src/gameobjects/person.cpp.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/outer.dir/src/gameobjects/person.cpp.s: cmake_force
 CMakeFiles/outer.dir/src/concepts/currentState.cpp.o: CMakeFiles/outer.dir/flags.make
 CMakeFiles/outer.dir/src/concepts/currentState.cpp.o: /var/home/kodex/Documents/cpp_programming/9/src/concepts/currentState.cpp
 CMakeFiles/outer.dir/src/concepts/currentState.cpp.o: CMakeFiles/outer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/outer.dir/src/concepts/currentState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/outer.dir/src/concepts/currentState.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/outer.dir/src/concepts/currentState.cpp.o -MF CMakeFiles/outer.dir/src/concepts/currentState.cpp.o.d -o CMakeFiles/outer.dir/src/concepts/currentState.cpp.o -c /var/home/kodex/Documents/cpp_programming/9/src/concepts/currentState.cpp
 
 CMakeFiles/outer.dir/src/concepts/currentState.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/outer.dir/src/concepts/currentState.cpp.s: cmake_force
 CMakeFiles/outer.dir/src/gamestates/update.cpp.o: CMakeFiles/outer.dir/flags.make
 CMakeFiles/outer.dir/src/gamestates/update.cpp.o: /var/home/kodex/Documents/cpp_programming/9/src/gamestates/update.cpp
 CMakeFiles/outer.dir/src/gamestates/update.cpp.o: CMakeFiles/outer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/outer.dir/src/gamestates/update.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/outer.dir/src/gamestates/update.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/outer.dir/src/gamestates/update.cpp.o -MF CMakeFiles/outer.dir/src/gamestates/update.cpp.o.d -o CMakeFiles/outer.dir/src/gamestates/update.cpp.o -c /var/home/kodex/Documents/cpp_programming/9/src/gamestates/update.cpp
 
 CMakeFiles/outer.dir/src/gamestates/update.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/outer.dir/src/gamestates/update.cpp.s: cmake_force
 CMakeFiles/outer.dir/src/configs/config.cpp.o: CMakeFiles/outer.dir/flags.make
 CMakeFiles/outer.dir/src/configs/config.cpp.o: /var/home/kodex/Documents/cpp_programming/9/src/configs/config.cpp
 CMakeFiles/outer.dir/src/configs/config.cpp.o: CMakeFiles/outer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/outer.dir/src/configs/config.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/outer.dir/src/configs/config.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/outer.dir/src/configs/config.cpp.o -MF CMakeFiles/outer.dir/src/configs/config.cpp.o.d -o CMakeFiles/outer.dir/src/configs/config.cpp.o -c /var/home/kodex/Documents/cpp_programming/9/src/configs/config.cpp
 
 CMakeFiles/outer.dir/src/configs/config.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/outer.dir/src/configs/config.cpp.s: cmake_force
 CMakeFiles/outer.dir/src/main.cpp.o: CMakeFiles/outer.dir/flags.make
 CMakeFiles/outer.dir/src/main.cpp.o: /var/home/kodex/Documents/cpp_programming/9/src/main.cpp
 CMakeFiles/outer.dir/src/main.cpp.o: CMakeFiles/outer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/outer.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/outer.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/outer.dir/src/main.cpp.o -MF CMakeFiles/outer.dir/src/main.cpp.o.d -o CMakeFiles/outer.dir/src/main.cpp.o -c /var/home/kodex/Documents/cpp_programming/9/src/main.cpp
 
 CMakeFiles/outer.dir/src/main.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/outer.dir/src/main.cpp.s: cmake_force
 CMakeFiles/outer.dir/src/commons.cpp.o: CMakeFiles/outer.dir/flags.make
 CMakeFiles/outer.dir/src/commons.cpp.o: /var/home/kodex/Documents/cpp_programming/9/src/commons.cpp
 CMakeFiles/outer.dir/src/commons.cpp.o: CMakeFiles/outer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/outer.dir/src/commons.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/outer.dir/src/commons.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/outer.dir/src/commons.cpp.o -MF CMakeFiles/outer.dir/src/commons.cpp.o.d -o CMakeFiles/outer.dir/src/commons.cpp.o -c /var/home/kodex/Documents/cpp_programming/9/src/commons.cpp
 
 CMakeFiles/outer.dir/src/commons.cpp.i: cmake_force
@@ -155,6 +169,7 @@ CMakeFiles/outer.dir/src/commons.cpp.s: cmake_force
 
 # Object files for target outer
 outer_OBJECTS = \
+"CMakeFiles/outer.dir/src/gameobjects/room.cpp.o" \
 "CMakeFiles/outer.dir/src/gameobjects/person.cpp.o" \
 "CMakeFiles/outer.dir/src/concepts/currentState.cpp.o" \
 "CMakeFiles/outer.dir/src/gamestates/update.cpp.o" \
@@ -165,6 +180,7 @@ outer_OBJECTS = \
 # External object files for target outer
 outer_EXTERNAL_OBJECTS =
 
+outer: CMakeFiles/outer.dir/src/gameobjects/room.cpp.o
 outer: CMakeFiles/outer.dir/src/gameobjects/person.cpp.o
 outer: CMakeFiles/outer.dir/src/concepts/currentState.cpp.o
 outer: CMakeFiles/outer.dir/src/gamestates/update.cpp.o
@@ -174,7 +190,7 @@ outer: CMakeFiles/outer.dir/src/commons.cpp.o
 outer: CMakeFiles/outer.dir/build.make
 outer: /usr/lib64/libncurses.so
 outer: CMakeFiles/outer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable outer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable outer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/outer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

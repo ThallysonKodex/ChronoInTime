@@ -81,12 +81,12 @@ clean: CMakeFiles/outer.dir/clean
 CMakeFiles/outer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/outer.dir/build.make CMakeFiles/outer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/outer.dir/build.make CMakeFiles/outer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target outer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target outer"
 .PHONY : CMakeFiles/outer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/outer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/outer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /var/home/kodex/Documents/cpp_programming/9/build/CMakeFiles 0
 .PHONY : CMakeFiles/outer.dir/rule

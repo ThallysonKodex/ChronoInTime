@@ -9,6 +9,6 @@ find_package(Curses REQUIRED)
 
 include_directories(include)
 include_directories(src/configs/include)
-set(SOURCES src/gameobjects/person.cpp src/concepts/currentState.cpp src/gamestates/update.cpp src/configs/config.cpp src/main.cpp src/commons.cpp)
+set(SOURCES src/gameobjects/room.cpp src/gameobjects/person.cpp src/concepts/currentState.cpp src/gamestates/update.cpp src/configs/config.cpp src/main.cpp src/commons.cpp)
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_link_libraries(${PROJECT_NAME} ${CMAKE_LIBRARY_PATH})

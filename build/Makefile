@@ -225,6 +225,30 @@ src/gameobjects/person.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/outer.dir/build.make CMakeFiles/outer.dir/src/gameobjects/person.cpp.s
 .PHONY : src/gameobjects/person.cpp.s
 
+src/gameobjects/room.o: src/gameobjects/room.cpp.o
+.PHONY : src/gameobjects/room.o
+
+# target to build an object file
+src/gameobjects/room.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/outer.dir/build.make CMakeFiles/outer.dir/src/gameobjects/room.cpp.o
+.PHONY : src/gameobjects/room.cpp.o
+
+src/gameobjects/room.i: src/gameobjects/room.cpp.i
+.PHONY : src/gameobjects/room.i
+
+# target to preprocess a source file
+src/gameobjects/room.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/outer.dir/build.make CMakeFiles/outer.dir/src/gameobjects/room.cpp.i
+.PHONY : src/gameobjects/room.cpp.i
+
+src/gameobjects/room.s: src/gameobjects/room.cpp.s
+.PHONY : src/gameobjects/room.s
+
+# target to generate assembly for a file
+src/gameobjects/room.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/outer.dir/build.make CMakeFiles/outer.dir/src/gameobjects/room.cpp.s
+.PHONY : src/gameobjects/room.cpp.s
+
 src/gamestates/update.o: src/gamestates/update.cpp.o
 .PHONY : src/gamestates/update.o
 
@@ -294,6 +318,9 @@ help:
 	@echo "... src/gameobjects/person.o"
 	@echo "... src/gameobjects/person.i"
 	@echo "... src/gameobjects/person.s"
+	@echo "... src/gameobjects/room.o"
+	@echo "... src/gameobjects/room.i"
+	@echo "... src/gameobjects/room.s"
 	@echo "... src/gamestates/update.o"
 	@echo "... src/gamestates/update.i"
 	@echo "... src/gamestates/update.s"
