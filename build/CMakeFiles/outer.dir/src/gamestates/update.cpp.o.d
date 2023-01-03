@@ -97,7 +97,6 @@ CMakeFiles/outer.dir/src/gamestates/update.cpp.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/bits/types/error_t.h /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /var/home/kodex/Documents/cpp_programming/9/include/person.h \
  /var/home/kodex/Documents/cpp_programming/9/include/room.h \
  /usr/include/c++/12/map /usr/include/c++/12/bits/stl_tree.h \
  /usr/include/c++/12/ext/aligned_buffer.h \
@@ -105,9 +104,17 @@ CMakeFiles/outer.dir/src/gamestates/update.cpp.o: \
  /usr/include/c++/12/bits/stl_map.h /usr/include/c++/12/tuple \
  /usr/include/c++/12/bits/uses_allocator.h \
  /usr/include/c++/12/bits/stl_multimap.h \
- /usr/include/c++/12/bits/erase_if.h \
+ /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/list \
+ /usr/include/c++/12/bits/stl_list.h \
+ /usr/include/c++/12/bits/allocated_ptr.h \
+ /usr/include/c++/12/bits/list.tcc \
+ /var/home/kodex/Documents/cpp_programming/9/include/person.h \
+ /var/home/kodex/Documents/cpp_programming/9/include/person.h \
  /var/home/kodex/Documents/cpp_programming/9/include/room.h \
  /var/home/kodex/Documents/cpp_programming/9/include/currentState.h \
- /var/home/kodex/Documents/cpp_programming/9/include/person.h \
  /usr/include/curses.h /usr/include/ncurses_dll.h /usr/include/unctrl.h \
  /usr/include/curses.h

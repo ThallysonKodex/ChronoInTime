@@ -185,6 +185,26 @@ CMakeFiles/outer.dir/src/commons.cpp.o: /var/home/kodex/Documents/cpp_programmin
   /usr/include/c++/12/istream \
   /usr/include/c++/12/bits/istream.tcc \
   /var/home/kodex/Documents/cpp_programming/9/include/commons.h \
+  /var/home/kodex/Documents/cpp_programming/9/include/room.h \
+  /usr/include/c++/12/map \
+  /usr/include/c++/12/bits/stl_tree.h \
+  /usr/include/c++/12/ext/aligned_buffer.h \
+  /usr/include/c++/12/bits/node_handle.h \
+  /usr/include/c++/12/bits/stl_map.h \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/bits/stl_multimap.h \
+  /usr/include/c++/12/bits/erase_if.h \
+  /usr/include/c++/12/vector \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/list \
+  /usr/include/c++/12/bits/stl_list.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/bits/list.tcc \
+  /var/home/kodex/Documents/cpp_programming/9/include/person.h \
   /usr/include/unistd.h \
   /usr/include/bits/posix_opt.h \
   /usr/include/bits/environments.h \
@@ -202,10 +222,7 @@ CMakeFiles/outer.dir/src/concepts/currentState.cpp.o: /var/home/kodex/Documents/
   /usr/include/stdc-predef.h \
   /var/home/kodex/Documents/cpp_programming/9/include/currentState.h \
   /var/home/kodex/Documents/cpp_programming/9/include/person.h \
-  /var/home/kodex/Documents/cpp_programming/9/include/room.h \
-  /usr/include/c++/12/map \
-  /usr/include/c++/12/bits/stl_tree.h \
-  /usr/include/c++/12/bits/stl_algobase.h \
+  /usr/include/c++/12/string \
   /usr/include/c++/12/x86_64-redhat-linux/bits/c++config.h \
   /usr/include/bits/wordsize.h \
   /usr/include/c++/12/x86_64-redhat-linux/bits/os_defines.h \
@@ -218,46 +235,8 @@ CMakeFiles/outer.dir/src/concepts/currentState.cpp.o: /var/home/kodex/Documents/
   /usr/include/gnu/stubs-64.h \
   /usr/include/c++/12/x86_64-redhat-linux/bits/cpu_defines.h \
   /usr/include/c++/12/pstl/pstl_config.h \
-  /usr/include/c++/12/bits/functexcept.h \
-  /usr/include/c++/12/bits/exception_defines.h \
-  /usr/include/c++/12/bits/cpp_type_traits.h \
-  /usr/include/c++/12/ext/type_traits.h \
-  /usr/include/c++/12/ext/numeric_traits.h \
-  /usr/include/c++/12/bits/stl_pair.h \
-  /usr/include/c++/12/type_traits \
-  /usr/include/c++/12/bits/move.h \
-  /usr/include/c++/12/bits/utility.h \
-  /usr/include/c++/12/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12/bits/concept_check.h \
-  /usr/include/c++/12/debug/assertions.h \
-  /usr/include/c++/12/bits/stl_iterator.h \
-  /usr/include/c++/12/bits/ptr_traits.h \
-  /usr/include/c++/12/debug/debug.h \
-  /usr/include/c++/12/bits/predefined_ops.h \
-  /usr/include/c++/12/bits/allocator.h \
-  /usr/include/c++/12/x86_64-redhat-linux/bits/c++allocator.h \
-  /usr/include/c++/12/bits/new_allocator.h \
-  /usr/include/c++/12/new \
-  /usr/include/c++/12/bits/exception.h \
-  /usr/include/c++/12/bits/memoryfwd.h \
-  /usr/include/c++/12/bits/stl_function.h \
-  /usr/include/c++/12/backward/binders.h \
-  /usr/include/c++/12/ext/alloc_traits.h \
-  /usr/include/c++/12/bits/alloc_traits.h \
-  /usr/include/c++/12/bits/stl_construct.h \
-  /usr/include/c++/12/ext/aligned_buffer.h \
-  /usr/include/c++/12/bits/node_handle.h \
-  /usr/include/c++/12/bits/stl_map.h \
-  /usr/include/c++/12/initializer_list \
-  /usr/include/c++/12/tuple \
-  /usr/include/c++/12/bits/uses_allocator.h \
-  /usr/include/c++/12/bits/invoke.h \
-  /usr/include/c++/12/bits/stl_multimap.h \
-  /usr/include/c++/12/bits/range_access.h \
-  /usr/include/c++/12/bits/erase_if.h \
-  /usr/include/c++/12/string \
   /usr/include/c++/12/bits/stringfwd.h \
+  /usr/include/c++/12/bits/memoryfwd.h \
   /usr/include/c++/12/bits/char_traits.h \
   /usr/include/c++/12/bits/postypes.h \
   /usr/include/c++/12/cwchar \
@@ -275,6 +254,7 @@ CMakeFiles/outer.dir/src/concepts/currentState.cpp.o: /var/home/kodex/Documents/
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/12/type_traits \
   /usr/include/c++/12/cstdint \
   /usr/lib/gcc/x86_64-redhat-linux/12/include/stdint.h \
   /usr/include/stdint.h \
@@ -283,6 +263,15 @@ CMakeFiles/outer.dir/src/concepts/currentState.cpp.o: /var/home/kodex/Documents/
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/12/bits/allocator.h \
+  /usr/include/c++/12/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/12/bits/new_allocator.h \
+  /usr/include/c++/12/new \
+  /usr/include/c++/12/bits/exception.h \
+  /usr/include/c++/12/bits/functexcept.h \
+  /usr/include/c++/12/bits/exception_defines.h \
+  /usr/include/c++/12/bits/move.h \
+  /usr/include/c++/12/bits/cpp_type_traits.h \
   /usr/include/c++/12/bits/localefwd.h \
   /usr/include/c++/12/x86_64-redhat-linux/bits/c++locale.h \
   /usr/include/c++/12/clocale \
@@ -295,8 +284,29 @@ CMakeFiles/outer.dir/src/concepts/currentState.cpp.o: /var/home/kodex/Documents/
   /usr/include/bits/endianness.h \
   /usr/include/c++/12/bits/ostream_insert.h \
   /usr/include/c++/12/bits/cxxabi_forced.h \
+  /usr/include/c++/12/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12/bits/concept_check.h \
+  /usr/include/c++/12/debug/assertions.h \
+  /usr/include/c++/12/bits/stl_iterator.h \
+  /usr/include/c++/12/ext/type_traits.h \
+  /usr/include/c++/12/bits/ptr_traits.h \
+  /usr/include/c++/12/bits/stl_function.h \
+  /usr/include/c++/12/backward/binders.h \
+  /usr/include/c++/12/ext/numeric_traits.h \
+  /usr/include/c++/12/bits/stl_algobase.h \
+  /usr/include/c++/12/bits/stl_pair.h \
+  /usr/include/c++/12/bits/utility.h \
+  /usr/include/c++/12/debug/debug.h \
+  /usr/include/c++/12/bits/predefined_ops.h \
   /usr/include/c++/12/bits/refwrap.h \
+  /usr/include/c++/12/bits/invoke.h \
+  /usr/include/c++/12/bits/range_access.h \
+  /usr/include/c++/12/initializer_list \
   /usr/include/c++/12/bits/basic_string.h \
+  /usr/include/c++/12/ext/alloc_traits.h \
+  /usr/include/c++/12/bits/alloc_traits.h \
+  /usr/include/c++/12/bits/stl_construct.h \
   /usr/include/c++/12/string_view \
   /usr/include/c++/12/bits/functional_hash.h \
   /usr/include/c++/12/bits/hash_bytes.h \
@@ -346,6 +356,25 @@ CMakeFiles/outer.dir/src/concepts/currentState.cpp.o: /var/home/kodex/Documents/
   /usr/include/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
+  /var/home/kodex/Documents/cpp_programming/9/include/room.h \
+  /usr/include/c++/12/map \
+  /usr/include/c++/12/bits/stl_tree.h \
+  /usr/include/c++/12/ext/aligned_buffer.h \
+  /usr/include/c++/12/bits/node_handle.h \
+  /usr/include/c++/12/bits/stl_map.h \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/bits/stl_multimap.h \
+  /usr/include/c++/12/bits/erase_if.h \
+  /usr/include/c++/12/vector \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/list \
+  /usr/include/c++/12/bits/stl_list.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/bits/list.tcc \
   /var/home/kodex/Documents/cpp_programming/9/include/person.h
 
 CMakeFiles/outer.dir/src/configs/config.cpp.o: /var/home/kodex/Documents/cpp_programming/9/src/configs/config.cpp \
@@ -540,10 +569,7 @@ CMakeFiles/outer.dir/src/configs/config.cpp.o: /var/home/kodex/Documents/cpp_pro
 CMakeFiles/outer.dir/src/gameobjects/person.cpp.o: /var/home/kodex/Documents/cpp_programming/9/src/gameobjects/person.cpp \
   /usr/include/stdc-predef.h \
   /var/home/kodex/Documents/cpp_programming/9/include/person.h \
-  /var/home/kodex/Documents/cpp_programming/9/include/room.h \
-  /usr/include/c++/12/map \
-  /usr/include/c++/12/bits/stl_tree.h \
-  /usr/include/c++/12/bits/stl_algobase.h \
+  /usr/include/c++/12/string \
   /usr/include/c++/12/x86_64-redhat-linux/bits/c++config.h \
   /usr/include/bits/wordsize.h \
   /usr/include/c++/12/x86_64-redhat-linux/bits/os_defines.h \
@@ -556,46 +582,8 @@ CMakeFiles/outer.dir/src/gameobjects/person.cpp.o: /var/home/kodex/Documents/cpp
   /usr/include/gnu/stubs-64.h \
   /usr/include/c++/12/x86_64-redhat-linux/bits/cpu_defines.h \
   /usr/include/c++/12/pstl/pstl_config.h \
-  /usr/include/c++/12/bits/functexcept.h \
-  /usr/include/c++/12/bits/exception_defines.h \
-  /usr/include/c++/12/bits/cpp_type_traits.h \
-  /usr/include/c++/12/ext/type_traits.h \
-  /usr/include/c++/12/ext/numeric_traits.h \
-  /usr/include/c++/12/bits/stl_pair.h \
-  /usr/include/c++/12/type_traits \
-  /usr/include/c++/12/bits/move.h \
-  /usr/include/c++/12/bits/utility.h \
-  /usr/include/c++/12/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12/bits/concept_check.h \
-  /usr/include/c++/12/debug/assertions.h \
-  /usr/include/c++/12/bits/stl_iterator.h \
-  /usr/include/c++/12/bits/ptr_traits.h \
-  /usr/include/c++/12/debug/debug.h \
-  /usr/include/c++/12/bits/predefined_ops.h \
-  /usr/include/c++/12/bits/allocator.h \
-  /usr/include/c++/12/x86_64-redhat-linux/bits/c++allocator.h \
-  /usr/include/c++/12/bits/new_allocator.h \
-  /usr/include/c++/12/new \
-  /usr/include/c++/12/bits/exception.h \
-  /usr/include/c++/12/bits/memoryfwd.h \
-  /usr/include/c++/12/bits/stl_function.h \
-  /usr/include/c++/12/backward/binders.h \
-  /usr/include/c++/12/ext/alloc_traits.h \
-  /usr/include/c++/12/bits/alloc_traits.h \
-  /usr/include/c++/12/bits/stl_construct.h \
-  /usr/include/c++/12/ext/aligned_buffer.h \
-  /usr/include/c++/12/bits/node_handle.h \
-  /usr/include/c++/12/bits/stl_map.h \
-  /usr/include/c++/12/initializer_list \
-  /usr/include/c++/12/tuple \
-  /usr/include/c++/12/bits/uses_allocator.h \
-  /usr/include/c++/12/bits/invoke.h \
-  /usr/include/c++/12/bits/stl_multimap.h \
-  /usr/include/c++/12/bits/range_access.h \
-  /usr/include/c++/12/bits/erase_if.h \
-  /usr/include/c++/12/string \
   /usr/include/c++/12/bits/stringfwd.h \
+  /usr/include/c++/12/bits/memoryfwd.h \
   /usr/include/c++/12/bits/char_traits.h \
   /usr/include/c++/12/bits/postypes.h \
   /usr/include/c++/12/cwchar \
@@ -613,6 +601,7 @@ CMakeFiles/outer.dir/src/gameobjects/person.cpp.o: /var/home/kodex/Documents/cpp
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/12/type_traits \
   /usr/include/c++/12/cstdint \
   /usr/lib/gcc/x86_64-redhat-linux/12/include/stdint.h \
   /usr/include/stdint.h \
@@ -621,6 +610,15 @@ CMakeFiles/outer.dir/src/gameobjects/person.cpp.o: /var/home/kodex/Documents/cpp
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/12/bits/allocator.h \
+  /usr/include/c++/12/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/12/bits/new_allocator.h \
+  /usr/include/c++/12/new \
+  /usr/include/c++/12/bits/exception.h \
+  /usr/include/c++/12/bits/functexcept.h \
+  /usr/include/c++/12/bits/exception_defines.h \
+  /usr/include/c++/12/bits/move.h \
+  /usr/include/c++/12/bits/cpp_type_traits.h \
   /usr/include/c++/12/bits/localefwd.h \
   /usr/include/c++/12/x86_64-redhat-linux/bits/c++locale.h \
   /usr/include/c++/12/clocale \
@@ -633,8 +631,29 @@ CMakeFiles/outer.dir/src/gameobjects/person.cpp.o: /var/home/kodex/Documents/cpp
   /usr/include/bits/endianness.h \
   /usr/include/c++/12/bits/ostream_insert.h \
   /usr/include/c++/12/bits/cxxabi_forced.h \
+  /usr/include/c++/12/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12/bits/concept_check.h \
+  /usr/include/c++/12/debug/assertions.h \
+  /usr/include/c++/12/bits/stl_iterator.h \
+  /usr/include/c++/12/ext/type_traits.h \
+  /usr/include/c++/12/bits/ptr_traits.h \
+  /usr/include/c++/12/bits/stl_function.h \
+  /usr/include/c++/12/backward/binders.h \
+  /usr/include/c++/12/ext/numeric_traits.h \
+  /usr/include/c++/12/bits/stl_algobase.h \
+  /usr/include/c++/12/bits/stl_pair.h \
+  /usr/include/c++/12/bits/utility.h \
+  /usr/include/c++/12/debug/debug.h \
+  /usr/include/c++/12/bits/predefined_ops.h \
   /usr/include/c++/12/bits/refwrap.h \
+  /usr/include/c++/12/bits/invoke.h \
+  /usr/include/c++/12/bits/range_access.h \
+  /usr/include/c++/12/initializer_list \
   /usr/include/c++/12/bits/basic_string.h \
+  /usr/include/c++/12/ext/alloc_traits.h \
+  /usr/include/c++/12/bits/alloc_traits.h \
+  /usr/include/c++/12/bits/stl_construct.h \
   /usr/include/c++/12/string_view \
   /usr/include/c++/12/bits/functional_hash.h \
   /usr/include/c++/12/bits/hash_bytes.h \
@@ -683,7 +702,26 @@ CMakeFiles/outer.dir/src/gameobjects/person.cpp.o: /var/home/kodex/Documents/cpp
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
-  /usr/include/c++/12/bits/basic_string.tcc
+  /usr/include/c++/12/bits/basic_string.tcc \
+  /var/home/kodex/Documents/cpp_programming/9/include/room.h \
+  /usr/include/c++/12/map \
+  /usr/include/c++/12/bits/stl_tree.h \
+  /usr/include/c++/12/ext/aligned_buffer.h \
+  /usr/include/c++/12/bits/node_handle.h \
+  /usr/include/c++/12/bits/stl_map.h \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/bits/stl_multimap.h \
+  /usr/include/c++/12/bits/erase_if.h \
+  /usr/include/c++/12/vector \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/list \
+  /usr/include/c++/12/bits/stl_list.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/bits/list.tcc
 
 CMakeFiles/outer.dir/src/gameobjects/room.cpp.o: /var/home/kodex/Documents/cpp_programming/9/src/gameobjects/room.cpp \
   /usr/include/stdc-predef.h \
@@ -741,6 +779,18 @@ CMakeFiles/outer.dir/src/gameobjects/room.cpp.o: /var/home/kodex/Documents/cpp_p
   /usr/include/c++/12/bits/stl_multimap.h \
   /usr/include/c++/12/bits/range_access.h \
   /usr/include/c++/12/bits/erase_if.h \
+  /usr/include/c++/12/vector \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/functional_hash.h \
+  /usr/include/c++/12/bits/hash_bytes.h \
+  /usr/include/c++/12/bits/refwrap.h \
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/list \
+  /usr/include/c++/12/bits/stl_list.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/bits/list.tcc \
   /usr/include/c++/12/string \
   /usr/include/c++/12/bits/stringfwd.h \
   /usr/include/c++/12/bits/char_traits.h \
@@ -780,11 +830,8 @@ CMakeFiles/outer.dir/src/gameobjects/room.cpp.o: /var/home/kodex/Documents/cpp_p
   /usr/include/bits/endianness.h \
   /usr/include/c++/12/bits/ostream_insert.h \
   /usr/include/c++/12/bits/cxxabi_forced.h \
-  /usr/include/c++/12/bits/refwrap.h \
   /usr/include/c++/12/bits/basic_string.h \
   /usr/include/c++/12/string_view \
-  /usr/include/c++/12/bits/functional_hash.h \
-  /usr/include/c++/12/bits/hash_bytes.h \
   /usr/include/c++/12/bits/string_view.tcc \
   /usr/include/c++/12/ext/string_conversions.h \
   /usr/include/c++/12/cstdlib \
@@ -970,7 +1017,6 @@ CMakeFiles/outer.dir/src/gamestates/update.cpp.o: /var/home/kodex/Documents/cpp_
   /usr/include/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
-  /var/home/kodex/Documents/cpp_programming/9/include/person.h \
   /var/home/kodex/Documents/cpp_programming/9/include/room.h \
   /usr/include/c++/12/map \
   /usr/include/c++/12/bits/stl_tree.h \
@@ -981,9 +1027,19 @@ CMakeFiles/outer.dir/src/gamestates/update.cpp.o: /var/home/kodex/Documents/cpp_
   /usr/include/c++/12/bits/uses_allocator.h \
   /usr/include/c++/12/bits/stl_multimap.h \
   /usr/include/c++/12/bits/erase_if.h \
+  /usr/include/c++/12/vector \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/list \
+  /usr/include/c++/12/bits/stl_list.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/bits/list.tcc \
+  /var/home/kodex/Documents/cpp_programming/9/include/person.h \
+  /var/home/kodex/Documents/cpp_programming/9/include/person.h \
   /var/home/kodex/Documents/cpp_programming/9/include/room.h \
   /var/home/kodex/Documents/cpp_programming/9/include/currentState.h \
-  /var/home/kodex/Documents/cpp_programming/9/include/person.h \
   /usr/include/curses.h \
   /usr/include/ncurses_dll.h \
   /usr/include/unctrl.h \
@@ -1173,6 +1229,26 @@ CMakeFiles/outer.dir/src/main.cpp.o: /var/home/kodex/Documents/cpp_programming/9
   /usr/include/c++/12/istream \
   /usr/include/c++/12/bits/istream.tcc \
   /var/home/kodex/Documents/cpp_programming/9/include/commons.h \
+  /var/home/kodex/Documents/cpp_programming/9/include/room.h \
+  /usr/include/c++/12/map \
+  /usr/include/c++/12/bits/stl_tree.h \
+  /usr/include/c++/12/ext/aligned_buffer.h \
+  /usr/include/c++/12/bits/node_handle.h \
+  /usr/include/c++/12/bits/stl_map.h \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/bits/stl_multimap.h \
+  /usr/include/c++/12/bits/erase_if.h \
+  /usr/include/c++/12/vector \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/list \
+  /usr/include/c++/12/bits/stl_list.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/bits/list.tcc \
+  /var/home/kodex/Documents/cpp_programming/9/include/person.h \
   /var/home/kodex/Documents/cpp_programming/9/src/configs/include/config.h \
   /usr/include/curses.h \
   /usr/include/ncurses_dll.h \
@@ -1184,8 +1260,6 @@ CMakeFiles/outer.dir/src/main.cpp.o: /var/home/kodex/Documents/cpp_programming/9
   /usr/include/strings.h
 
 
-/usr/include/string.h:
-
 /usr/include/c++/12/cstring:
 
 /var/home/kodex/Documents/cpp_programming/9/src/gamestates/update.cpp:
@@ -1195,20 +1269,6 @@ CMakeFiles/outer.dir/src/main.cpp.o: /var/home/kodex/Documents/cpp_programming/9
 /var/home/kodex/Documents/cpp_programming/9/src/gameobjects/person.cpp:
 
 /var/home/kodex/Documents/cpp_programming/9/src/configs/config.cpp:
-
-/usr/include/c++/12/bits/erase_if.h:
-
-/usr/include/c++/12/bits/stl_multimap.h:
-
-/usr/include/c++/12/bits/stl_map.h:
-
-/usr/include/c++/12/ext/aligned_buffer.h:
-
-/usr/include/c++/12/map:
-
-/var/home/kodex/Documents/cpp_programming/9/include/room.h:
-
-/var/home/kodex/Documents/cpp_programming/9/include/person.h:
 
 /var/home/kodex/Documents/cpp_programming/9/include/currentState.h:
 
@@ -1223,6 +1283,30 @@ CMakeFiles/outer.dir/src/main.cpp.o: /var/home/kodex/Documents/cpp_programming/9
 /usr/include/bits/environments.h:
 
 /usr/include/unistd.h:
+
+/var/home/kodex/Documents/cpp_programming/9/include/person.h:
+
+/usr/include/c++/12/list:
+
+/usr/include/c++/12/bits/stl_bvector.h:
+
+/usr/include/c++/12/bits/stl_vector.h:
+
+/usr/include/string.h:
+
+/usr/include/c++/12/bits/stl_uninitialized.h:
+
+/usr/include/c++/12/bits/erase_if.h:
+
+/usr/include/c++/12/bits/stl_multimap.h:
+
+/usr/include/c++/12/bits/stl_map.h:
+
+/usr/include/c++/12/ext/aligned_buffer.h:
+
+/usr/include/c++/12/map:
+
+/var/home/kodex/Documents/cpp_programming/9/include/room.h:
 
 /var/home/kodex/Documents/cpp_programming/9/include/commons.h:
 
@@ -1311,6 +1395,8 @@ CMakeFiles/outer.dir/src/main.cpp.o: /var/home/kodex/Documents/cpp_programming/9
 /usr/include/c++/12/bits/localefwd.h:
 
 /usr/include/bits/stdint-uintn.h:
+
+/usr/include/c++/12/vector:
 
 /usr/include/c++/12/bits/streambuf_iterator.h:
 
@@ -1528,6 +1614,8 @@ CMakeFiles/outer.dir/src/main.cpp.o: /var/home/kodex/Documents/cpp_programming/9
 
 /usr/include/c++/12/bits/ptr_traits.h:
 
+/usr/include/c++/12/bits/list.tcc:
+
 /usr/include/bits/types/struct_timespec.h:
 
 /usr/include/bits/stdio_lim.h:
@@ -1535,6 +1623,8 @@ CMakeFiles/outer.dir/src/main.cpp.o: /var/home/kodex/Documents/cpp_programming/9
 /usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/bits/time.h:
+
+/usr/include/c++/12/bits/stl_list.h:
 
 /usr/include/wctype.h:
 
@@ -1569,6 +1659,8 @@ CMakeFiles/outer.dir/src/main.cpp.o: /var/home/kodex/Documents/cpp_programming/9
 /usr/include/c++/12/bits/stl_iterator_base_types.h:
 
 /usr/include/bits/setjmp.h:
+
+/usr/include/c++/12/bits/allocated_ptr.h:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
@@ -1605,6 +1697,8 @@ CMakeFiles/outer.dir/src/main.cpp.o: /var/home/kodex/Documents/cpp_programming/9
 /usr/include/c++/12/cerrno:
 
 /usr/include/c++/12/bits/refwrap.h:
+
+/usr/include/c++/12/bits/vector.tcc:
 
 /usr/include/c++/12/bits/predefined_ops.h:
 

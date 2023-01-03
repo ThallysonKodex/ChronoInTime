@@ -4,6 +4,21 @@
 #include <string>
 #include <ncurses.h>
 
+
+void registerPerson(std::map<int, Person>& people, int& count, Person person){
+
+	people.insert(std::make_pair(count, person));
+	++count;
+
+
+}
+
+void registerRoom(std::map<int, Room>& roomMap, int& count, Room room){
+	roomMap.insert(std::make_pair(count, room));
+	++count;
+}
+
+
 void sleeper(int millis){
 	usleep(millis * 1000);
 }

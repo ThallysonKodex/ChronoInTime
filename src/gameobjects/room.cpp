@@ -3,8 +3,8 @@
 template<typename T>
 DOOR<T>::DOOR(T room) : m_room(&room){};
 
-
-Room::Room(std::string roomName) : m_roomName(roomName), m_doorCount(0) {};
+Room::Room(std::string roomName) 
+	: m_roomName(roomName), m_doorCount(0) {};
 
 int Room::getDoorCount(){
 	return m_doorCount;
@@ -16,6 +16,6 @@ void Room::addDoor(Room room){
 	++m_doorCount;
 }
 
-std::string Room::getName(){
+std::string Room::getRoomName(){
 	return m_roomName;
 }

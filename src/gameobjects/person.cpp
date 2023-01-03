@@ -1,8 +1,9 @@
 #include "person.h"
 #include <string>
 
-Person::Person(std::string name, int age, Room& initialRoom) 
-	: m_name(name), m_age(age), m_currentRoom(initialRoom){};
+Person::Person(std::string name, int age, char gender, Room& initialRoom) 
+	: m_name(name), m_age(age), m_gender(gender), m_currentRoom(&initialRoom){
+	};
 
 
 std::string Person::getName(){
@@ -19,11 +20,14 @@ int Person::getAge(){
 	return m_age;
 }
 
-
-void Person::switchRoom(Room& room){
-	m_currentRoom = room;
+char Person::getGender(){
+	return m_gender;
 }
 
-Room Person::getRoom(){
+void Person::switchRoom(Room& room){
+	m_currentRoom = &room;
+}
+
+Room* Person::getRoom(){
 	return m_currentRoom;
 }

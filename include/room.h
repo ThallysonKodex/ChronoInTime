@@ -1,7 +1,12 @@
 #ifndef ROOM
 #define ROOM
 #include <map>
+#include <vector>
+#include <list>
 #include <string>
+
+class Person;
+
 
 template<typename T>
 class DOOR{
@@ -13,7 +18,6 @@ class DOOR{
 
 }; 
 
-
 class Room{
 
 	public:
@@ -22,10 +26,9 @@ class Room{
 	Room(std::string roomName);
 	
 	int getDoorCount();
-
 	void addDoor(Room);
 	void removeDoor(int door);
-	std::string getName();
+	std::string getRoomName();
 
 	private:
 	std::string m_roomName;
